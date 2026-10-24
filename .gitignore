@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# Tests and tooling
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Screenshots from `jetkvm-mcp check` (default name and the README example)
+jetkvm-screenshot.png
+shot.png
